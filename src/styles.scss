@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap";
+$sans-serif: "Source Sans Pro", Helvetica, Verdana, sans-serif;
+$serif: Merriweather, Georgia, "Times New Roman", serif;
+body {
+    font-family: sans-serif;
+}
+h1,
+input {
+    font-family: serif;
+}
